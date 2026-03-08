@@ -1,0 +1,159 @@
+{
+  "global_defects_dict": {
+    "Normal Condition": [
+      0,
+      "an image of a normal object with no visible defects."
+    ],
+    "Physical Damage": [
+      1,
+      "an image of an anomaly object with physical damage including scratches, cracks, or chips altering the object's surface."
+    ],
+    "Color Anomaly": [
+      2,
+      "an image of an anomaly object with color spots or discolorations differing from the object's standard appearance."
+    ],
+    "Structural Breakage": [
+      3,
+      "an image of an anomaly object with structural breakage including cracks, breaks, or deformation altering the object's original shape."
+    ],
+    "Foreign Material": [
+      4,
+      "an image of an anomaly object with foreign particles or extra material not part of the original object."
+    ],
+    "Melting/Burning": [
+      5,
+      "an image of an anomaly object with signs of melting or burning affecting the object's structure or appearance."
+    ],
+    "Missing Parts": [
+      6,
+      "an image of an anomaly object with missing parts or chunks altering the object's completeness."
+    ],
+    "Deformation": [
+      7,
+      "an image of an anomaly object with deformation including bending or misshaping altering the object's form."
+    ],
+    "Sticking Together": [
+      8,
+      "an image of an anomaly object with parts stuck together, altering the object's separation."
+    ],
+    "Other Defects": [
+      9,
+      "an image of an anomaly object with other unspecified defects affecting the object's quality."
+    ]
+  },
+  "local2global_id_map": {
+    "candle": {
+      "BACKGROUND": 0,
+      "Chunk Of Wax Missing": 6,
+      "Damaged Corner of Packaging": 1,
+      "weird candle wick": 9,
+      "Different Colour Spot": 2,
+      "Extra Wax in Candle": 4,
+      "Foreign Particals on Candle": 4,
+      "Wax Melded out of the candle": 5,
+      "Other": 9
+    },
+    "capsules": {
+      "BACKGROUND": 0,
+      "Bubble": 9,
+      "Discolor": 2,
+      "Scratch": 1,
+      "Leak": 9,
+      "Misshape": 7
+    },
+    "fryum": {
+      "BACKGROUND": 0,
+      "Burnt": 5,
+      "Corner or Edge Breakage": 3,
+      "Different Colour Spot": 2,
+      "Fryum Stuck Together": 8,
+      "Middle Breakage": 3,
+      "Similar Colour Spot": 2,
+      "Small Scratches": 1,
+      "Other": 9
+    },
+    "cashew": {
+      "BACKGROUND": 0,
+      "Burnt": 5,
+      "Corner or Edge Breakage": 3,
+      "Different Colour Spot": 2,
+      "Middle Breakage": 3,
+      "Small Holes": 1,
+      "Small Scratches": 1,
+      "Stuck Together": 8,
+      "Same Colour Spot": 2,
+      "Other": 9
+    },
+    "chewinggum": {
+      "BACKGROUND": 0,
+      "Chunk of gum missing": 6,
+      "Corner Missing": 3,
+      "Scratches": 1,
+      "Similar Colour Spot": 2,
+      "Small Cracks": 1,
+      "Other": 9
+    },
+    "macaroni1": {
+      "BACKGROUND": 0,
+      "Chip Around Edge And Corner": 1,
+      "Different Colour Spot": 2,
+      "Middle Breakage": 3,
+      "Similar Colour Spot": 2,
+      "Small Cracks": 1,
+      "Other": 9
+    },
+    "macaroni2": {
+      "BACKGROUND": 0,
+      "Breakage down the middle": 3,
+      "Color spot similar to the Object": 2,
+      "Different Color spot": 2,
+      "Small chip around edge": 1,
+      "Small Cracks": 1,
+      "Other": 9
+    },
+    "pcb1": {
+      "BACKGROUND": 0,
+      "Bent": 7,
+      "Melt": 5,
+      "Scratch": 1,
+      "Missing": 6
+    },
+    "pcb2": {
+      "BACKGROUND": 0,
+      "Bent": 7,
+      "Melt": 5,
+      "Scratch": 1,
+      "Missing": 6
+    },
+    "pcb3": {
+      "BACKGROUND": 0,
+      "Bent": 7,
+      "Melt": 5,
+      "Scratch": 1,
+      "Missing": 6
+    },
+    "pcb4": {
+      "BACKGROUND": 0,
+      "Burnt": 5,
+      "Scratch": 1,
+      "Missing": 6,
+      "Damage": 1,
+      "Extra": 4,
+      "Wrong Place": 9,
+      "Dirt": 4
+    },
+    "pipe_fryum": {
+      "BACKGROUND": 0,
+      "Burnt": 5,
+      "Corner And Edge Breakage": 3,
+      "Different Colour Spot": 2,
+      "Middle Breakage": 3,
+      "Similar Colour Spot": 2,
+      "Small Scratches": 1,
+      "Stuck Together": 8,
+      "Small Cracks": 1,
+      "Other": 9
+    }
+  },
+  "summary": "Total categories: 40, Hyper categories: 10, Reduced redundancy : 75.00%"
+}

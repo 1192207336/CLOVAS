@@ -1,0 +1,31 @@
+{
+    "global_defect_classes":{
+        "Normal Condition": [0, "An image showing the object in its standard, defect-free state with no abnormalities visible."], 
+        "Structural Breakage": [1, "An image revealing physical fractures or missing components including edge/corner breaks, middle fractures, or chunk losses that compromise structural integrity."], 
+        "Surface Imperfection": [2, "An image displaying surface-level anomalies such as scratches, discoloration, or irregular spots contrasting with the object's normal appearance."], 
+        "Thermal Damage": [3, "An image showing evidence of heat-related defects including burnt marks, melted components, or wax leakage caused by thermal exposure."], 
+        "Material Anomaly": [4, "An image containing unexpected material characteristics like stuck components, foreign particles, extra wax deposits, or bubble formations."], 
+        "Assembly Defect": [5, "An image demonstrating improper manufacturing outcomes including missing parts, misplaced components, or abnormal assembly configurations."], 
+        "Compound Defects": [6, "An image presenting multiple concurrent defect types requiring comprehensive quality assessment."] 
+    },
+    "local2global_id_map":{
+        "candle": { "BACKGROUND": 0, "Chunk Of Wax Missing": 1, "Damaged Corner of Packaging": 1, "weird candle wick": 4, "Different Colour Spot": 2, "Extra Wax in Candle": 4, "Foreign Particals on Candle": 4, "Wax Melded out of the candle": 3, "Other": 6 }, 
+        "capsules": { "BACKGROUND": 0, "Bubble": 4, "Discolor": 2, "Scratch": 2, "Leak": 3, "Misshape": 1 }, 
+        "fryum": { "BACKGROUND": 0, "Burnt": 3, "Corner or Edge Breakage": 1, "Different Colour Spot": 2, 
+                  "Fryum Stuck Together": 4, "Middle Breakage": 1, "Similar Colour Spot": 2, "Small Scratches": 2, "Other": 6 }, 
+        "cashew": { "BACKGROUND": 0, "Burnt": 3, "Corner or Edge Breakage": 1, "Different Colour Spot": 2, 
+                   "Middle Breakage": 1, "Small Holes": 2, "Small Scratches": 2, "Stuck Together": 4, "Same Colour Spot": 2, "Other": 6 }, 
+        "chewinggum": { "BACKGROUND": 0, "Chunk of gum missing": 1, "Corner Missing": 1, "Scratches": 2, 
+                       "Similar Colour Spot": 2, "Small Cracks": 2, "Other": 6 }, 
+        "macaroni1": { "BACKGROUND": 0, "Chip Around Edge And Corner": 1, "Different Colour Spot": 2, 
+                      "Middle Breakage": 1, "Similar Colour Spot": 2, "Small Cracks": 2, "Small Scratches": 2, "Other": 6 }, 
+        "macaroni2": { "BACKGROUND": 0, "Breakage down the middle": 1, "Color spot similar to the Object": 2, 
+                      "Different Color spot": 2, "Small chip around edge": 1, "Small Cracks": 2, "Small Scratches": 2, "Other": 6 }, 
+        "pcb1": { "BACKGROUND": 0, "Bent": 1, "Melt": 3, "Scratch": 2, "Missing": 5 }, 
+        "pcb2": { "BACKGROUND": 0, "Bent": 1, "Melt": 3, "Scratch": 2, "Missing": 5 }, 
+        "pcb3": { "BACKGROUND": 0, "Bent": 1, "Melt": 3, "Scratch": 2, "Missing": 5 }, 
+        "pcb4": { "BACKGROUND": 0, "Burnt": 3, "Scratch": 2, "Missing": 5, "Damage": 1, "Extra": 4, "Wrong Place": 5, "Dirt": 4 }, 
+        "pipe_fryum": { "BACKGROUND": 0, "Burnt": 3, "Corner And Edge Breakage": 1, "Different Colour Spot": 2, 
+                       "Middle Breakage": 1, "Similar Colour Spot": 2, "Small Scratches": 2, "Stuck Together": 4, "Small Cracks": 2, "Other": 6 }
+    }
+}

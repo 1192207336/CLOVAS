@@ -1,0 +1,32 @@
+{
+    "decoder": "atm",
+    "exclude_key": ["prompt"],
+    "out_indices": [6, 12, 18, 24],
+    "training": true,
+    "tpt_mode":true,
+    "vpt_mode":false,
+    "tpt_settings": {
+        "n_ctx": 4,
+        "prompts_depth": 9
+    },
+    "vpt_settings":{
+         "num_tokens":20
+    },
+    "prompt_generator": "LLM",
+    "image_size": 518,
+    "learning_rate": 0.001,
+    "remove_background":false,
+    "cocoop_mode":true,
+    "loss_config" : {
+        "losses":["masks","binary_anomaly_masks","images","llm_const"],
+        "loss_weight":{
+            "focal_weight":100.0,
+            "dice_weight":1.0,
+            "binary_focal_weight" : 1.0,
+            "binary_dice_weight" : 1.0,
+            "image_weight" :1.0,
+            "llm_const_weight":1.0,
+            "total_loss_weight":1.0
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "global_defect_classes":{
+        "Normal": [0, "An image of the object in its normal condition without any defects."], 
+        "Structural Damage": [1, "An image showing structural damage including cracks, breaks, or deformation altering the object's original shape."], 
+        "Surface Defect": [2, "An image revealing surface anomalies such as scratches, dents, or discoloration contrasting with intact areas."], 
+        "Material Contamination": [3, "An image displaying foreign material contamination like stains, particles, or liquid residues on the surface."], 
+        "Assembly Error": [4, "An image depicting missing components, misplaced parts, or orientation errors in object assembly."], 
+        "Functional Failure": [5, "An image demonstrating functional failures including bent connectors or broken mechanisms."], 
+        "Combined Defects": [6, "An image containing multiple coexisting defect types requiring comprehensive inspection."] 
+    },
+    "local2global_id_map":{
+        "bottle": {"good": 0, "contamination": 3, "broken_small": 1, "broken_large": 1},
+        "cable": {"poke_insulation": 2, "cut_outer_insulation": 1, "missing_wire": 4, "good": 0, 
+              "missing_cable": 4, "bent_wire": 5, "cable_swap": 4, "cut_inner_insulation": 1, "combined": 6},
+        "capsule": {"scratch": 2, "poke": 1, "faulty_imprint": 2, "good": 0, "crack": 1, "squeeze": 1},
+        "carpet": {"good": 0, "hole": 1, "cut": 1, "thread": 3, "metal_contamination": 3, "color": 2},
+        "grid": {"good": 0, "broken": 1, "thread": 3, "metal_contamination": 3, "glue": 3, "bent": 5},
+        "hazelnut": {"good": 0, "hole": 1, "cut": 1, "print": 2, "crack": 1},
+        "leather": {"poke": 1, "good": 0, "fold": 2, "cut": 1, "color": 2, "glue": 3},
+        "metal_nut": {"scratch": 2, "good": 0, "flip": 4, "color": 2, "bent": 5},
+        "pill": {"scratch": 2, "faulty_imprint": 2, "pill_type": 4, "good": 0, "contamination": 3, "combined": 6, "color": 2, "crack": 1},
+        "screw": {"scratch_neck": 2, "good": 0, "scratch_head": 2, "manipulated_front": 4, "thread_side": 5, "thread_top": 5},
+        "tile": {"gray_stroke": 2, "oil": 3, "rough": 2, "good": 0, "glue_strip": 3, "crack": 1},
+        "toothbrush": {"good": 0, "defective": 5},
+        "transistor": {"good": 0, "misplaced": 4, "cut_lead": 1, "damaged_case": 1, "bent_lead": 5},
+        "wood": {"scratch": 2, "liquid": 3, "good": 0, "hole": 1, "combined": 6, "color": 2},
+        "zipper": {"broken_teeth": 1, "rough": 2, "good": 0, "fabric_interior": 3, "split_teeth": 1, "squeezed_teeth": 1, "fabric_border": 3, "combined": 6}
+    }
+}
